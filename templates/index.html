@@ -14,37 +14,38 @@
     ></script>
   </head>
 
-  <body style="background-color: rgba(89, 210, 224, 0.463); text-align:center >
-    <section class="section">
-      <div class="container">
-        <form method="POST" action="{{ url_for('add_original_url') }}">
-          <div class="field">
-            <label class="label">URL Shortener </label>
-            <div class="control">
-              <input class="input" type="text" name="original_url" required placeholder="http://www.example.com/"/>
-            </div>
-          </div
-          <div class="control">
-            <button type="reset">reset</button>
-            <button type="submit">Shorten</button>
-          </div>
-        </form>
-      </div>
-
-      <div class="container">
-        <form method="GET" action="{{ url_for('get_original_url') }}">
-          <div class="field">
-            <label class="label">Get Original URL </label>
-            <div class="control">
-              <input class="input" type="text" name="tiny_url" required  placeholder="Add your tiny URL" />
-            </div>
-          </div>
-          <div class="control">
-            <button type="reset" >reset</button>
-            <button type="submit">Request</button>
-          </div>
-        </form>
-      </div>
-    </section>
+  <body style="background-color: rgba(90, 210, 224, 0.463); text-align: center">
+    <div class="container">
+      <form method="POST" action="{{ url_for('add_original_url') }}">
+        <label class="label">URL Shortener </label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="original_url"
+            required
+            placeholder="http://www.example.com/"
+          />
+        </div>
+        <button type="reset">reset</button>
+        <button type="submit">Shorten</button>
+      </form>
+    </div>
+    <div class="container">
+      <form method="GET" action="{{ url_for('get_original_url') }}">
+        <label class="label">Get Original URL </label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            name="tiny_url"
+            required
+            placeholder="Add your tiny URL"
+          />
+        </div>
+        <button type="reset">reset</button>
+        <button type="submit">Request</button>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,8 +1,8 @@
 ## Project: URL Shortener server
 
-- **Author** : Rick Alarcon
-- **Completion Time** : 4 hours
-- **Functional Requeriments**:
+- Author : Rick Alarcon
+- Completion Time : 4 hours
+- Functional Requeriments:
   1. Users will be able to add their original URL and get back a tiny URL
   1. Users can request their Original URL with their tiny URL
   1. Server redirects to Original URL when putting the tiny URL in the Browser
@@ -13,8 +13,7 @@
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/) - Web framework for python
 - [PostgreSQL](https://www.postgresql.org/) - a popular relational database
 - [PostgresSQL GUI](https://www.pgadmin.org/) - a popular GUI for PostgresSQL
-- [Psycopg2 ]() - popular postgresSQL database driver for python
-- [PostgresSQL GUI]() - a popular ORM to generate SQL statements
+- [Psycopg2 ](https://www.psycopg.org/docs/) - popular postgresSQL database driver for python
 
 ## Install and Configuration
 
