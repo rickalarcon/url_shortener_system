@@ -1,4 +1,5 @@
 ## Project: URL Shortener server
+![Screen Shot 2022-10-24 at 12 58 55 AM](https://user-images.githubusercontent.com/35351964/197451538-1e5e3a1c-0400-45db-98d1-073ce41785d7.png)
 
 - Author : Rick Alarcon
 - Completion Time : 4 hours
