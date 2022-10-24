@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Results!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+  </head>
+  <body style="background-color:rgb(137, 126, 238);text-align:center">
+    <section class="section">
+      <div class="container">
+        <div class="field">
+          <label class="label">Original URL</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="original_url"
+              value="{{ original_url  }}"
+            />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Tiny URL</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="original_url"
+              value="{{ tiny_url }}"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
